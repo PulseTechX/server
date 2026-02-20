@@ -1,12 +1,13 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "AI Prompt Library Backend",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["ai", "prompts", "backend"],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
@@ -21,5 +22,8 @@
     "mongo-sanitize": "^1.1.0",
     "mongoose": "^9.2.1",
     "multer": "^2.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
